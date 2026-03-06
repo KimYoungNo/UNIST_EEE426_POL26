@@ -22,82 +22,85 @@ Please refer to the [How to Install](#how-to-install) section for the detailed i
 
 ---
 
-### [LAB 1: Pynq-Z2 board w. FFT example](./LAB1)
+### [LAB 1: Pynq-Z2 board w. FFT example](./LAB1) <div align="right">2026-03-11</div>
 
-+ date: 2026-03-11
+1. Generate a **bitstream** for the **FFT** design.
 
-+ description:  
-&emsp;Learning and practicing Vivado design flows, which are successively accomplished in the order of: *Block Deisgn - Synthesis - Implementation - Driver*.   
-&emsp;It is important to read [FFT LogiCORE IP](./LAB1/README.md) documentation to debug.
+1. Write a **Python script** to upload and execute the bitstream within the Jupyter Notebook.
+
+1. Run the FFT on the Pynq-Z2 and compare the runtime between **NumPy FFT vs. Pynq FFT**.
+
+1. Write a report including:
+	- A top-level block diagram of your design.
+	- A graph comparing the runtime against array size for both NumPy vs. Pynq.
+	- Justification of the FFT output using a function with a comparable answer (e.g., comparing with NumPy's FFT result).
+
+1. Submit your work on Blackboard including:
+	- A compressed zip file containing (i) a **bitstream (.bit) file** and (ii) the **Jupyter Notebook (.ipynb) file**.
+	- The report file in .pdf format.
 
 </br>
 
 ---
 
-### [LAB 2: Vitis HLS - Scalar Add](./LAB2)
+### [LAB 2: Vitis HLS - Scalar Add](./LAB2) <div align="right">2026-03-18</div>
 
-+ date: 2026-03-18
+1. Write a **module** and a corresponding **testbench** in Vitis HLS.
 
-+ description:
-&emsp;
+1. Run, verify and analyze the **C-simulation** and its result.
+
+1. Run the **Co-simulation**.
+
+1. Export the completed design as an **IP**.
+
+1. Import the IP into Vivado and generate a bitstream.
+
+1. Write a Python script for the design within the Jupyter Notebook.
+
+1. Write a report including:
+	- A top-level block diagram of your design.
+	- A discussion of analyzation from the results of C-simulation, C-synthesis and Co-simulation, including at least one specific obeservation per each stage.
+	
+1. Submit your work on Blackboard including:
+	- A compressed zip file containing (i) a **bitstream (.bit) file** and (ii) the **Jupyter Notebook (.ipynb) file**.
+	- The result text (.rpt, .log) files generated from (i) **C-simulation**, (ii) **C-synthesis**, and (iii) **Co-simulation**.
+	- The report file in .pdf format.
 	
 </br>
 
 ---
 
-### LAB 3: Vitis HLS - Vector Add
-
-+ date: 2026-03-25
-
-+ description:
+### LAB 3: Vitis HLS - Vector Add <div align="right">2026-03-25</div>
 
 </br>
 
 ---
 
-### LAB 4: Vitis HLS - Vector Add w. DMA
-
-+ date: 2026-04-01
-
-+ description:
+### LAB 4: Vitis HLS - Vector Add w. DMA <div align="right">2026-04-01</div>
 
 </br>
 
 ---
 
-### LAB 5: Vitis HLS - Matrix Multiplication
-
-+ date: 2026-04-08
-
-+ description:
+### LAB 5: Vitis HLS - Matrix Multiplication <div align="right">2026-04-08</div>
 
 </br>
 
 ---
 
-### LAB 6: Neural Network Training + Inferencing on Pynq-Z2
-
-+ date: 2026-04-29
-
-+ description:
+### LAB 6: Neural Network Training + Inferencing on Pynq-Z2  <div align="right">2026-04-29</div>
 
 </br>
 
 ---
 
-### LAB 7: Presentation + Optimization Methods
-
-+ date: 2026-05-06
-
-+ description:
+### LAB 7: Presentation + Optimization Methods  <div align="right">2026-05-06</div>
 
 </br>
 
 ---
 
-### FINAL PROJECT
-
-+ date: TBD
+### FINAL PROJECT  <div align="right">TBD</div>
 
 </br>
 
