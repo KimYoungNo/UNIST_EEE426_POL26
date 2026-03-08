@@ -24,30 +24,24 @@ Please refer to the [How to Install](#how-to-install) section for the detailed i
 
 ### [LAB 1: Pynq-Z2 board w. FFT example](./LAB1) <div align="right">2026-03-11</div>
 
+| | |
+| :-- | :-- |
+| User Name | `xilinx` | 
+| Password | `xilinx` |
+
+</br>
+
 ---
 
 ### [LAB 2: Vitis HLS - Scalar Add](./LAB2) <div align="right">2026-03-18</div>
 
-1. Write a **module** and a corresponding **testbench** in Vitis HLS.
+| | |
+| :-- | :-- |
+| Target Device | `xc7z020-clg400-1` |
+| HLS Interfaces | `ap_ctrl_none`</br>`s_axilite` |
 
-1. Run, verify and analyze the **C-simulation** and its result.
-
-1. Run the **Co-simulation**.
-
-1. Export the completed design as an **IP**.
-
-1. Import the IP into Vivado and generate a bitstream.
-
-1. Write a Python script for the design within the Jupyter Notebook.
-
-1. Write a report including:
-	- A top-level block diagram of your design.
-	- A discussion of analyzation from the results of C-simulation, C-synthesis and Co-simulation, including at least one specific obeservation per each stage.
-	
-1. Submit your work on Blackboard including:
-	- A compressed zip file containing (i) a **bitstream (.bit) file** and (ii) the **Jupyter Notebook (.ipynb) file**.
-	- The result text (.rpt, .log) files generated from (i) **C-simulation**, (ii) **C-synthesis**, and (iii) **Co-simulation**.
-	- The report file in .pdf format.
+> **Warning**  
+> `#pragma HLS INTERFACE ap_ctrl_none port=return` directive makes Co-simulation unavailable.
 	
 </br>
 
@@ -103,17 +97,24 @@ Make sure choose appropriate version for your OS.
 
 1. Complete the required form and click the download button.
 
-1. Execute the installer and grant the program permission to modify your system. Note that disabling your anti-virus software templorarily may save your time.
+1. Execute the installer and grant the program permission to modify your system.  
+Note that disabling anti-virus software templorarily may save your time.
 	
 1. Fill out your AMD account credential and click next, ensuring that the radio button is set to **Download and Install Now**
 
-1. Select the **Vitis** option and click next.
+1. Select the **Vivado** option and click next.
+
+1. Select the **Vivado ML Standard** option and click next.
+
+1. Uncheck every option under **Devices**, except **Devices&mdash;Production Devices&mdash;SoCs&mdash;Zynq-7000** (to reduce download size) and click next.
 
 1. Accept all license agreements and click next.
 
 1. Wait for the download and installation process.
 
-1. Verify whether **Vivado 2024.1** and **Vitis HLS 2024.1** are locatable.
+1. After download is finished:
+	- **Windows**: execute [hls_lnk_patch.bat](./hls_lnk_patch.bat) to make Vitis HLS 2024.1 shortcut compatible with the legacy environment.
+	- **Linux**: always execute `vitis_hls` with `-classic` option.
 
 </br>
 
@@ -143,7 +144,7 @@ Make sure choose appropriate version for your OS.
 
 - AMD Adaptive SoC & FPGA Support:
 
-	- AXI Bascis:
+	+ AXI Bascis:
 	
 		1. [Introduction to AXI](https://adaptivesupport.amd.com/s/article/1053914)
 		
