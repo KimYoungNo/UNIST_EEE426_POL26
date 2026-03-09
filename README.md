@@ -24,10 +24,18 @@ Please refer to the [How to Install](#how-to-install) section for the detailed i
 
 ### [LAB 1: Pynq-Z2 board w. FFT example](./LAB1) <div align="right">2026-03-11</div>
 
-| | |
-| :-- | :-- |
-| User Name | `xilinx` | 
-| Password | `xilinx` |
+<table>
+<tr><td>
+User Name
+</td><td><code>
+xilinx
+</code></td></tr>
+<tr><td>
+Password
+</td><td><code>
+xilinx
+</code></td></tr>
+</table>
 
 </br>
 
@@ -35,10 +43,19 @@ Please refer to the [How to Install](#how-to-install) section for the detailed i
 
 ### [LAB 2: Vitis HLS - Scalar Add](./LAB2) <div align="right">2026-03-18</div>
 
-| | |
-| :-- | :-- |
-| Target Device | `xc7z020-clg400-1` |
-| HLS Interfaces | `ap_ctrl_none`</br>`s_axilite` |
+<table>
+<tr><td>
+Target Device
+</td><td><code>
+xc7z020-clg400-1
+</code></td></tr>
+<tr><td>
+HLS Interfaces
+</td><td><code>
+ap_ctrl_none</br>
+s_axilite
+</code></td></tr>
+</table>
 
 > **Warning**  
 > `#pragma HLS INTERFACE ap_ctrl_none port=return` directive makes Co-simulation unavailable.
@@ -85,12 +102,13 @@ Please refer to the [How to Install](#how-to-install) section for the detailed i
 
 #### How to Install
 
-1. Check your OS is supported:
+1. Check your OS is supported:  
 	- `Windows 10.0 22H2 64-bit` or newer
 	- `Ubuntu 20.04.4` or newer
 	- another OS found in this [list](https://docs.amd.com/r/2024.1-English/ug973-vivado-release-notes-install-license/Requirements-and-Setup)
 	
-1. Click this [link](https://www.xilinx.com/support/download/index.html/content/xilinx/en/downloadNav/vivado-design-tools/2024-1.html) and scroll down to locate **AMD Unified Installer for FPGAs & Adaptive SoCs 2024.1 [ Windows | Linux ] Self Extracting Web Installer**.
+1. Click this [link](https://www.xilinx.com/support/download/index.html/content/xilinx/en/downloadNav/vivado-design-tools/2024-1.html) and scroll down to locate  
+**AMD Unified Installer for FPGAs & Adaptive SoCs 2024.1 [ Windows | Linux ] Self Extracting Web Installer**  
 Make sure choose appropriate version for your OS.
 
 1. Login using your AMD account.
@@ -112,8 +130,10 @@ Note that disabling anti-virus software templorarily may save your time.
 
 1. Wait for the download and installation process.
 
-1. After download is finished:
-	- **Windows**: execute [hls_lnk_patch.bat](./hls_lnk_patch.bat) to make Vitis HLS 2024.1 shortcut compatible with the legacy environment.
+1. After download is finished:  
+
+	- **Windows**: execute [hls_lnk_patch.bat](./hls_lnk_patch.bat) to make Vitis HLS 2024.1 shortcut compatible with the legacy environment.  
+
 	- **Linux**: always execute `vitis_hls` with `-classic` option.
 
 </br>
@@ -130,7 +150,6 @@ Note that disabling anti-virus software templorarily may save your time.
 	
 	+ [Documentation](https://pynq.readthedocs.io/en/latest/index.html)
 
-
 - AMD Technical Information:  
 	
 	+ [Documentation Portal](https://docs.amd.com/search/all?query=Vivado)
@@ -141,22 +160,21 @@ Note that disabling anti-virus software templorarily may save your time.
 	+ [Vitis High-Level Syntehsis User Guide](https://docs.amd.com/r/2024.1-English/ug1399-vitis-hls)
 	&ensp; (UG1399, 2024.1)
 
-
 - AMD Adaptive SoC & FPGA Support:
 
 	+ AXI Bascis:
 	
-		1. [Introduction to AXI](https://adaptivesupport.amd.com/s/article/1053914)
+		+ [Introduction to AXI](https://adaptivesupport.amd.com/s/article/1053914)
 		
-		1. [Simulating AXI interfaces with the AXI Verification IP (AXI VIP)](https://adaptivesupport.amd.com/s/article/1053935)
+		+ [Simulating AXI interfaces with the AXI Verification IP (AXI VIP)](https://adaptivesupport.amd.com/s/article/1053935)
 		
-		1. [Master AXI4-Lite simulation with the AXI VIP](https://adaptivesupport.amd.com/s/article/1058302)
+		+ [Master AXI4-Lite simulation with the AXI VIP](https://adaptivesupport.amd.com/s/article/1058302)
 		
-		1. [Using the AXI VIP as protocol checker for an AXI4 Master interface](https://adaptivesupport.amd.com/s/article/1062002)
+		+ [Using the AXI VIP as protocol checker for an AXI4 Master interface](https://adaptivesupport.amd.com/s/article/1062002)
 		
-		1. [Create an AXI4-Lite Sniffer IP to use in Xilinx Vivado IP Integrator](https://adaptivesupport.amd.com/s/article/1064306)
+		+ [Create an AXI4-Lite Sniffer IP to use in Xilinx Vivado IP Integrator](https://adaptivesupport.amd.com/s/article/1064306)
 		
-		1. [Introduction to AXI4-Lite in Vitis HLS](https://adaptivesupport.amd.com/s/article/1137153)
+		+ [Introduction to AXI4-Lite in Vitis HLS](https://adaptivesupport.amd.com/s/article/1137153)
 		
-		1. [Connecting to the PS using AXI4-Lite and Vitis HLS](https://adaptivesupport.amd.com/s/article/1137753)
+		+ [Connecting to the PS using AXI4-Lite and Vitis HLS](https://adaptivesupport.amd.com/s/article/1137753)
 		
