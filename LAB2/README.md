@@ -6,12 +6,12 @@ The Pynq-Z2 board allows users to interface with programmable logic through Pyth
 
 &emsp;By completing this lab, you will learn how to:
 
-+ Develop a Vivado HLS project for a scalar addition kernel.  
-+ Implement a testbench and verify functionality using C-Simulation.  
-+ Perform C-Synthesis to generate RTL and run Co-Simulation.  
-+ Package and export the generated IP to Xilinx Vivado.  
++ Develop a Vivado HLS project for a **scalar addition kernel**.  
++ Implement a testbench and verify functionality using **C-Simulation**.  
++ Perform **C-Synthesis** to generate RTL and run **Co-Simulation**.  
++ Package and export the generated IP to Vivado.  
 + Integrate the custom IP into a hardware design.  
-+ Generate the *.bit* and *.hwh* files and transfer them to Jupyter Notebook.  
++ Generate the `.bit` and `.hwh` files and transfer them to Jupyter Notebook.  
 + Test the design on the Pynq-Z2 board using Python.  
 
 &emsp;For future labs, it is recommended that you practice integrating RTL (or HLS) designs with Python interfaces to streamline your FPGA development process.
@@ -73,7 +73,7 @@ The Pynq-Z2 board allows users to interface with programmable logic through Pyth
 - A top-level block diagram of your design.
 
 #### Part 1:
-&emsp;a. Describe a significant difference between IP drivers (.ipynb script) of **ADDER** and **GCD**.  
+&emsp;a. Describe a significant difference between the IP drivers (.ipynb script) of **ADDER** and **GCD**.  
 &emsp;b. What makes the difference? Explain it with a citation from [Vitis HLS Documentation](https://docs.amd.com/r/2024.1-English/ug1399-vitis-hls). Below specific sections also be useful.
 
 </br>

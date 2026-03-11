@@ -25,20 +25,16 @@ Please refer to the [How to Install](#how-to-install) section for the detailed i
 ### [LAB 1: Pynq-Z2 board w. FFT example](./LAB1) <div align="right">2026-03-11</div>
 
 <table>
-	<tr>
-		<td>
-			User Name
-		</td><td>
-			<code>xilinx</code>
-		</td>
-	</tr>
-	<tr>
-		<td>
-			Password
-		</td><td>
-			<code>xilinx</code>
-		</td>
-	</tr>
+	<tr><td>
+		User Name
+	</td><td>
+		<code>xilinx</code>
+	</td></tr>
+	<tr><td>
+		Password
+	</td><td>
+		<code>xilinx</code>
+	</td></tr>
 </table>
 
 </br>
@@ -48,22 +44,18 @@ Please refer to the [How to Install](#how-to-install) section for the detailed i
 ### [LAB 2: Vitis HLS - Scalar Add](./LAB2) <div align="right">2026-03-18</div>
 
 <table>
-	<tr>
-		<td>
-			Target Device
-		</td><td>
-			<code>xc7z020-clg400-1</code>
-		</td>
-	</tr>
-	<tr>
-		<td>
-			HLS Interfaces
-		</td><td>
-			<code>ap_ctrl_none</code>
-			</br>
-			<code>s_axilite</code>
-		</td>
-	</tr>
+	<tr><td>
+		Target Device
+	</td><td>
+		<code>xc7z020-clg400-1</code>
+	</td></tr>
+	<tr><td>
+		HLS Interfaces
+	</td><td>
+		<code>ap_ctrl_none</code>
+		</br>
+		<code>s_axilite</code>
+	</td></tr>
 </table>
 
 > **Warning**  
@@ -73,7 +65,7 @@ Please refer to the [How to Install](#how-to-install) section for the detailed i
 
 ---
 
-### LAB 3: Vitis HLS - Vector Add <div align="right">2026-03-25</div>
+### [LAB 3: Vitis HLS - Vector Add](./LAB3) <div align="right">2026-03-25</div>
 
 </br>
 
