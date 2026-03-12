@@ -139,6 +139,7 @@
 
 1. Configure FFT as next:
     - Transform Length = 65536  
+    - Architecture Choice = Pipelined, Streaming I/O
     - Enable ***Run Time Configurable Transform Length***
 
     ![FFT_CONF](./images/1-19.png)
