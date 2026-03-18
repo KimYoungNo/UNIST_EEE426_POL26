@@ -4,7 +4,7 @@
 
 1. Open Vivado and click ***Create Project*** in the ***Quick Start***.
 
-    ![CREATE PROJECT](./images/1-1.png)
+    ![CREATE_PROJECT](./images/1-1.png)
 
     ---
 
@@ -17,81 +17,81 @@
 1. Set ***Project name*** and ***Project location***.
 
     > **CAUTION**  
-    > Do not include **Any Non-English** chracter in the ***Project name*** and ***Project location*** !
+    > &emsp;Do not include **Any Non-English** chracter in the ***Project name*** and ***Project location*** !
 
-    ![NEW PROJECT](./images/1-3.png)
+    ![NEW_PROJECT](./images/1-3.png)
 
     ---
 
 1. Let option as ***RTL Project*** and click ***Next >***.
 
-    ![PROJECT TYPE](./images/1-4.png)
+    ![PROJECT_TYPE](./images/1-4.png)
 
     ---
 
 1. Let additional source empty and click ***Next >***.
 
-    ![PROJECT TYPE](./images/1-5.png)
+    ![ADD_SOURCES](./images/1-5.png)
 
     ---
 
 1. Let constraints empty and click ***Next >***.
 
-    ![PROJECT TYPE](./images/1-6.png)
+    ![ADD_CONSTRAINT](./images/1-6.png)
 
     ---
 
 1. Select **Boards** &ndash; **pynq-z2** and click ***Next >***.
 
     > **ATTENTION**  
-    > If **pynq-z2** is not on the list, try:  
-    > &emsp; 1. press *Refresh* on the left-bottom.  
-    > &emsp; 2. if still not updated, check your internet connection and re-open Vivado.  
-    > &emsp; 3. follow the instruction from the start.
+    > &emsp;If **pynq-z2** is not on the list, try:  
+    > &emsp;&ensp; 1. press ***Refresh*** on the left-bottom.  
+    > &emsp;&ensp; 2. if still not updated, check your internet connection and re-open Vivado.  
+    > &emsp;&ensp; 3. follow the instruction from the start.
 
-    ![PROJECT TYPE](./images/1-7.png)
+    ![DEFAULT_PART](./images/1-7.png)
 
     ---
 
 1. Click ***Next >***, then you can see Vivado project manager.
 
-    ![PROJECT TYPE](./images/1-8.png)
+    ![PROJECT_SUMMARY](./images/1-8.png)
 
-    ![PROJECT TYPE](./images/1-9.png)
+    ![FIRST_SCREEN](./images/1-9.png)
 
     ---
 
 1. Click ***Create Block Design*** under **IP INTEGRATOR** on the Flow Navigator, then enter ***Design name***.
 
-    ![PROJECT TYPE](./images/1-10.png)
+    ![CREATE_BLOCK_DESIGN](./images/1-10.png)
 
     ---
 
 1. On the toolbar in the ***Diagram*** section, press **<font size=5px>+</font>** to add IP.
 
-    ![ADD IP](./images/1-11.png)
+    ![ADD_IP](./images/1-11.png)
 
-    ![ADD IP](./images/1-12.png)
+    ![IP_BROWSER_1](./images/1-12.png)
 
     ---
 
 1. In the pop-up window, search and add **ZYNQ7 Processing System**.
 
-    ![ADD IP](./images/1-13.png)
+    ![IP_BROWSER_2](./images/1-13.png)
 
-    ![ADD IP](./images/1-14.png)
+    ![IP_BROWSER_3](./images/1-14.png)
 
     ---
 
 1. Likewise, add one **Fast Fourier Transform**, three **AXI Direct Memory Access**, and two **AXI Interconnect**.
 
-    ![ADD IP](./images/1-15-1.png)
+    ![IP_BROWSER_4](./images/1-15-1.png)
 
-    ![ADD IP](./images/1-15-2.png)
+    ![IP_BROWSER_5](./images/1-15-2.png)
 
-    ![ADD IP](./images/1-15-3.png)
+    ![IP_BROWSER_6](./images/1-15-3.png)
 
-    ![ADD IP](./images/1-16.png)
+    ![IP_BROWSER_7](./images/1-16.png)
 
     ---
 
@@ -125,7 +125,7 @@
     - \# of Slave Interfaces = 1  
     - \# of Master Interfaces = 3
 
-    ![AXI_INTER_0](./images/1-18-1.png)
+    ![AXI_INTERCCONNECT_0](./images/1-18-1.png)
 
     ---
 
@@ -133,7 +133,7 @@
     - \# of Slave Interfaces = 3  
     - \# of Master Interfaces = 1
 
-    ![AXI_INTER_1](./images/1-18-2.png)
+    ![AXI_INTERCCONNECT_1](./images/1-18-2.png)
 
     ---
 
@@ -281,3 +281,7 @@
     ![BATCH_SCRIPT](./images/1-46.png)
 
     ![BIT_HWH_COPIED](./images/1-47.png)
+
+    ---
+
+1. After backup `.bit` and `.hwh` files, follow [LAB1_JUPYTER.md](./LAB1_JUPYTER.md) to implement IP driver.

@@ -182,4 +182,6 @@ PING pynq (X.X.X.X) 56(84) bytes of data.
                    3145666, 4289986332], dtype=uint32)
     ```
 
-1. Based on this tutorial, write your own driver code for the questions posed in the report.
+    ---
+
+1. Based on this tutorial, write your own driver code for the questions requested in the report.

@@ -18,9 +18,11 @@
 
 ### Procedure
 
-1. Generate a **bitstream** for the **FFT** design.
+1. Generate a **bitstream** for the **FFT** design.  
+	> Check [LAB1_VIVADO.md](./LAB1_VIVADO.md) for more details
 
-1. Write a **Python script** to upload and execute the bitstream within the Jupyter Notebook.
+1. Write a **Python script** to upload and execute the bitstream within the Jupyter Notebook.  
+	> Check [LAB1_JUPYTER.md](./LAB1_JUPYTER.md) for more details
 
 1. Run the FFT on the Pynq-Z2 and compare the runtime between **NumPy FFT vs. Pynq FFT**.
 	
@@ -38,25 +40,32 @@
 	
 - Justification of the FFT output using a function with a comparable answer (e.g., comparing with NumPy's FFT result), in case of accomplish **Part 3**.
 
-#### Part 1:
+#### Part 1:  
 
-&emsp;a. Make a **plot of the runtime comparison** between HW(pynq) vs. SW(numpy).  
-&emsp;b. Make at least **6 datapoints**.  
-&emsp;c. You can use matplotlib by default.  
+1. Make a **plot of the runtime comparison** between HW(pynq) vs. SW(numpy).  
+
+1. Make at least **6 datapoints**.    
+
+1. You can use matplotlib by default.   
 	
 #### Part 2:
 
-&emsp;a. The time complexity of FFT is $O(n\ \log\ n)$. Does the HW or SW runtime seems to be $O(n\ \log\ n)$?  
-&emsp;b. Is the HW runtime always faster? Explain **when** and **why** HW is faster.
+1. The time complexity of FFT is $O(n\ \log\ n)$. Does the HW or SW runtime seems to be $O(n\ \log\ n)$?  
+
+1. Is the HW runtime always faster? Explain **when** and **why** HW is faster.
 	
 #### Part 3 (optional):
 
-&emsp;a. It is your homework to read the output data correctly. Step d~e is an example to test the correctness of the FFT output. You may think of other methods/test cases to verify the FFT HW.  
-&emsp;b. The 32 bit output is concatenation of imaginary and real part, which are both fixed point signed 16-bit.  
-&emsp;c. The scale factor is the same as the maximum transformation length.  
-&emsp; ***NOTE**: if you change the max. length, you should change the configuration by your own. STRONGLY NOT RECOMMENDED.*  
-&emsp;d. Make a dummy signal of two or three sinusoidal waves interferenced.  
-&emsp;e. After reading the values as complex numbers properly, make a plot of the absolute values.
+1. It is your homework to read the output data correctly. Step d~e is an example to test the correctness of the FFT output. You may think of other methods/test cases to verify the FFT HW.  
+
+1. The 32 bit output is concatenation of imaginary and real part, which are both fixed point signed 16-bit.  
+
+1. The scale factor is the same as the maximum transformation length.  
+***NOTE**: if you change the max. length, you should change the configuration by your own. STRONGLY NOT RECOMMENDED.* 
+
+1. Make a dummy signal of two or three sinusoidal waves interferenced.  
+
+1. After reading the values as complex numbers properly, make a plot of the absolute values.
 
 </br>
 

@@ -25,16 +25,18 @@ Please refer to the [How to Install](#how-to-install) section for the detailed i
 ### [LAB 1: Pynq-Z2 board w. FFT example](./LAB1) <div align="right">2026-03-11</div>
 
 <table>
-	<tr><td>
-		User Name
-	</td><td>
-		<code>xilinx</code>
-	</td></tr>
-	<tr><td>
-		Password
-	</td><td>
-		<code>xilinx</code>
-	</td></tr>
+<tr>
+	<td>Jupyter Notebook URL</td>
+	<td><code>pynq:9090</code></td>
+</tr>
+<tr>
+	<td>User Name</td>
+	<td><code>xilinx</code></td>
+</tr>
+<tr>
+	<td>Password</td>
+	<td><code>xilinx</code></td>
+</tr>
 </table>
 
 </br>
@@ -44,22 +46,21 @@ Please refer to the [How to Install](#how-to-install) section for the detailed i
 ### [LAB 2: Vitis HLS - Scalar Add](./LAB2) <div align="right">2026-03-18</div>
 
 <table>
-	<tr><td>
-		Target Device
-	</td><td>
-		<code>xc7z020-clg400-1</code>
-	</td></tr>
-	<tr><td>
-		HLS Interfaces
-	</td><td>
-		<code>ap_ctrl_none</code>
-		</br>
-		<code>s_axilite</code>
-	</td></tr>
+<tr>
+	<td>Target Device</td>
+	<td><code>xc7z020-clg400-1</code></td>
+</tr>
+<tr>
+	<td rowspan="2">HLS Interfaces</td>
+	<td><code>ap_ctrl_none</code></td>
+</tr>
+<tr>
+	<td><code>s_axilite</code></td>
+</tr>
 </table>
 
 > **Warning**  
-> `#pragma HLS INTERFACE ap_ctrl_none port=return` directive makes Co-simulation unavailable.
+> `#pragma HLS INTERFACE ap_ctrl_none port=return` directive makes Cosimulation **unavailable**.
 	
 </br>
 
@@ -67,23 +68,43 @@ Please refer to the [How to Install](#how-to-install) section for the detailed i
 
 ### [LAB 3: Vitis HLS - Vector Add](./LAB3) <div align="right">2026-03-25</div>
 
+<table>
+<tr>
+	<td rowspan="2">HLS Interfaces</td>
+	<td><code>m_axi</code></td>
+</tr>
+<tr>
+	<td><code>s_axilite</code></td>
+</tr>
+<tr>
+	<td rowspan="3">HLS Directives</td>
+	<td><code>PIPELINE</code></td>
+</tr>
+<tr>
+	<td><code>UNROLL</code></td>
+</tr>
+<tr>
+	<td><code>DATAFLOW</code></td>
+</tr>
+</table>
+
 </br>
 
 ---
 
-### LAB 4: Vitis HLS - Vector Add w. DMA <div align="right">2026-04-01</div>
+### [LAB 4: Vitis HLS - Vector Add w. DMA](./LAB4) <div align="right">2026-04-01</div>
 
 </br>
 
 ---
 
-### LAB 5: Vitis HLS - Matrix Multiplication <div align="right">2026-04-08</div>
+### [LAB 5: Vitis HLS - Matrix Multiplication](./LAB5) <div align="right">2026-04-08</div>
 
 </br>
 
 ---
 
-### LAB 6: Neural Network Training + Inferencing on Pynq-Z2  <div align="right">2026-04-29</div>
+### [LAB 6: Neural Network Training + Inferencing on Pynq-Z2](./LAB6)  <div align="right">2026-04-29</div>
 
 </br>
 
@@ -125,7 +146,7 @@ Note that disabling anti-virus software templorarily may save your time.
 
 1. Select the **Vivado ML Standard** option and click next.
 
-1. Uncheck every option under **Devices**, except **Devices&mdash;Production Devices&mdash;SoCs&mdash;Zynq-7000** (to reduce download size) and click next.
+1. Uncheck every option under **Devices**, except **Devices** &ndash; **Production Devices** &ndash; **SoCs** &ndash; **Zynq-7000** (to reduce download size) and click next.
 
 1. Accept all license agreements and click next.
 

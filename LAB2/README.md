@@ -7,8 +7,8 @@ The Pynq-Z2 board allows users to interface with programmable logic through Pyth
 &emsp;By completing this lab, you will learn how to:
 
 + Develop a Vivado HLS project for a **scalar addition kernel**.  
-+ Implement a testbench and verify functionality using **C-Simulation**.  
-+ Perform **C-Synthesis** to generate RTL and run **Co-Simulation**.  
++ Implement a testbench and verify functionality using **C Simulation**.  
++ Perform **C Synthesis** to generate RTL and run **CoSimulation**.  
 + Package and export the generated IP to Vivado.  
 + Integrate the custom IP into a hardware design.  
 + Generate the `.bit` and `.hwh` files and transfer them to Jupyter Notebook.  
@@ -40,25 +40,31 @@ The Pynq-Z2 board allows users to interface with programmable logic through Pyth
 &nbsp;┖ &nbsp;[*adder_tb.cpp*](./hls_sources/adder_tb.cpp)  
 	
 1. Run simulations.  
-&emsp;a. Perform **C-Simulation** to verify functionality.  
-&emsp;b. Perform **C-Synthesis** to generate RTL.  
-&emsp;c. Perform **Co-Simulation** to validate the design.  
+	- Perform **C Simulation** to verify functionality.  
+	- Perform **C Synthesis** to generate RTL.  
+	- Perform **Cosimulation** to validate the design.  
 
-1. Export the IP to Vivado.  
-&emsp;a. Package the synthesized IP in Vitis HLS.  
-&emsp;b. Import the IP into Vivado.  
+	> Check [LAB2_HLS.md](./LAB2_HLS.md) for more details
+
+1. Export the IP to Vivado.   
+	- Package the synthesized IP in Vitis HLS.  
+	- Import the IP into Vivado.  
 
 1. Integrate with processing system.  
-&emsp;a. Add the custom IP to the block design.  
-&emsp;b. Connect it to the **Processing System** (PS) using **AXI Interconnect**.  
+	- Add the custom IP to the block design.  
+	- Connect it to the **Processing System** (PS) using **AXI Interconnect**.  
 
 1. Generate a bitstream and export files.  
-&emsp;a. Generate *.bit* and *.hwh* files.   
-&emsp;b. Transfer these files to the Jupyter Notebook environment.
+	- Generate *.bit* and *.hwh* files.   
+	- Transfer these files to the Jupyter Notebook environment.  
+
+	> Check [LAB2_VIVADO.md](./LAB2_VIVADO.md) for more details
 
 1. Test the files on the Pynq board.  
-&emsp;a. Load the bitstream on Overlay.  
-&emsp;b. Write Python code to communicate with the FPGA and test the adder IP.
+	- Load the bitstream on Overlay.  
+	- Write Python code to communicate with the FPGA and test the adder IP.
+
+	> Check [LAB2_JUPYTER.md](./LAB2_JUPYTER.md) for more details
 	
 </br>
 
@@ -66,15 +72,17 @@ The Pynq-Z2 board allows users to interface with programmable logic through Pyth
 
 ### Report
 
-&emsp;Each group will implement a **GCD IP** in Vitis HLS, and verify the functional correctness of the IP on Jupyter Notebook. Students should also implement a custom IP driver (Overlay class).
+&emsp;Each group will implement a **Greatest Common Divisor IP** in Vitis HLS and verify its functional correctness on Jupyter Notebook. Students should also implement a custom IP driver (Overlay class).
 
-&emsp;The report should includes following:
+&emsp;The report should include the following:
 
 - A top-level block diagram of your design.
 
 #### Part 1:
-&emsp;a. Describe a significant difference between the IP drivers (.ipynb script) of **ADDER** and **GCD**.  
-&emsp;b. What makes the difference? Explain it with a citation from [Vitis HLS Documentation](https://docs.amd.com/r/2024.1-English/ug1399-vitis-hls). Below specific sections also be useful.
+
+1. Describe a significant difference between the IP drivers (`.ipynb` script) of **ADDER** and **GCD**.  
+
+1. What makes the difference? Explain it with a citation from [Vitis HLS Documentation](https://docs.amd.com/r/2024.1-English/ug1399-vitis-hls). The specific sections listed below may be useful.
 
 </br>
 
