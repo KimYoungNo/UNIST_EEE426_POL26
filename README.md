@@ -26,7 +26,7 @@ Please refer to the [How to Install](#how-to-install) section for the detailed i
 
 <table>
 <tr>
-	<td>Jupyter Notebook URL</td>
+	<td>Jupyter Notebook</td>
 	<td><code>pynq:9090</code></td>
 </tr>
 <tr>
@@ -36,6 +36,15 @@ Please refer to the [How to Install](#how-to-install) section for the detailed i
 <tr>
 	<td>Password</td>
 	<td><code>xilinx</code></td>
+</tr>
+<tr>
+	<td rowspan="2">Location</br>
+	<small>(under the Vivado Project)</small></td>
+	<td><code>{project_name}.gen/sources_#/bd
+	/{project_name}/hw_handoff/*.hwh</code></td>
+</tr>
+<tr>
+	<td><code>{project_name}.runs/impl_#/*.bit</code></td>
 </tr>
 </table>
 
@@ -48,14 +57,15 @@ Please refer to the [How to Install](#how-to-install) section for the detailed i
 <table>
 <tr>
 	<td>Target Device</td>
-	<td><code>xc7z020-clg400-1</code></td>
+	<td><code>xc7z020clg400-1</code></td>
 </tr>
 <tr>
 	<td rowspan="2">HLS Interfaces</td>
-	<td><code>ap_ctrl_none</code></td>
+	<td><code>ap_ctrl_none</code> 
+	<code>s_axilite</code></td>
 </tr>
 <tr>
-	<td><code>s_axilite</code></td>
+	<td></td>
 </tr>
 </table>
 
@@ -70,21 +80,14 @@ Please refer to the [How to Install](#how-to-install) section for the detailed i
 
 <table>
 <tr>
-	<td rowspan="2">HLS Interfaces</td>
+	<td>HLS Interfaces</td>
 	<td><code>m_axi</code></td>
 </tr>
 <tr>
-	<td><code>s_axilite</code></td>
-</tr>
-<tr>
-	<td rowspan="3">HLS Directives</td>
-	<td><code>PIPELINE</code></td>
-</tr>
-<tr>
-	<td><code>UNROLL</code></td>
-</tr>
-<tr>
-	<td><code>DATAFLOW</code></td>
+	<td>HLS Directives</td>
+	<td><code>PIPELINE</code>
+	<code>UNROLL</code>
+	<code>DATAFLOW</code></td>
 </tr>
 </table>
 
@@ -93,6 +96,27 @@ Please refer to the [How to Install](#how-to-install) section for the detailed i
 ---
 
 ### [LAB 4: Vitis HLS - Vector Add w. DMA](./LAB4) <div align="right">2026-04-01</div>
+
+<table>
+<tr>
+	<td>HLS Interfaces</td>
+	<td><code>axis</code></td>
+</tr>
+<tr>
+	<td>HLS Directives</td>
+	<td><code>INLINE</code>
+	<code>LOOP_TRIPCOUNT</code>
+	<code>STREAM</code></td>
+</tr>
+<tr>
+	<td>HLS Classes</td>
+	<td><code>ap_uint<></code>
+	<code>ap_axiu<></code>
+	<code>hls::stream<></code></td>
+</tr>
+</table>
+
+</br>
 
 </br>
 
