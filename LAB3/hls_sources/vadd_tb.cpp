@@ -13,7 +13,7 @@ main()
 		a[i] = 1 * i;
 		b[i] = 2 * i;
 	}
-	vadd(a, b, c);
+	TOP_VADD(a, b, c);
 
 	for (int i=0; i<SIZE; ++i)
 		std::cout
@@ -22,4 +22,5 @@ main()
 			<< " + "  << b[i]
 			<< " = "  << c[i]
 			<< std::endl;
+	return 0;
 }

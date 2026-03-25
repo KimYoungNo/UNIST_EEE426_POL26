@@ -1,3 +1,4 @@
 #define SIZE 16
+#define TOP_VADD vadd
 
-void vadd(int *, int *, int *);
+void TOP_VADD(int *, int *, int *);

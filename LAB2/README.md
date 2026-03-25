@@ -76,7 +76,7 @@ The Pynq-Z2 board allows users to interface with programmable logic through Pyth
 
 &emsp;The report should include the following:
 
-- A top-level block diagram of your design.
+- A **top-level block diagram** of your design.
 
 #### Part 1:
 

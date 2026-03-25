@@ -34,11 +34,11 @@
 
 &emsp;The report should includes following:
 
-- A top-level block diagram of your design.
+- A **top-level block diagram** of your design.
 	
-- A graph comparing the runtime against array size for both NumPy vs. Pynq.
+- A **graph** comparing the runtime against array size for both NumPy vs. Pynq.
 	
-- Justification of the FFT output using a function with a comparable answer (e.g., comparing with NumPy's FFT result), in case of accomplish **Part 3**.
+- **Justification** of the FFT output using a function with a comparable answer (e.g., comparing with NumPy's FFT result), in case of accomplish **Part 3**.
 
 #### Part 1:  
 
