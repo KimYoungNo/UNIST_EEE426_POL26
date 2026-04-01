@@ -1,9 +1,7 @@
 # EEE426 Labs and Project
 
-> Spring 2026
->
-> Instructor: Jongeun Lee
->
+> Spring 2026  
+> Instructor: Jongeun Lee  
 > TAs: EunSeok Jo, SeonJae Kim, YoungNo Kim
 
 ---
@@ -40,8 +38,7 @@ Please refer to the [How to Install](#how-to-install) section for the detailed i
 <tr>
 	<td rowspan="2">Location</br>
 	<small>(under the Vivado Project)</small></td>
-	<td><code>{project_name}.gen/sources_#/bd
-	/{project_name}/hw_handoff/*.hwh</code></td>
+	<td><code>{project_name}.gen/sources_#/bd/{project_name}/hw_handoff/*.hwh</code></td>
 </tr>
 <tr>
 	<td><code>{project_name}.runs/impl_#/*.bit</code></td>
@@ -69,7 +66,7 @@ Please refer to the [How to Install](#how-to-install) section for the detailed i
 </tr>
 </table>
 
-> **Warning**  
+> [!CAUTION]  
 > `#pragma HLS INTERFACE ap_ctrl_none port=return` directive makes Cosimulation **unavailable**.
 	
 </br>
@@ -118,23 +115,27 @@ Please refer to the [How to Install](#how-to-install) section for the detailed i
 
 </br>
 
-</br>
-
 ---
 
-### [LAB 5: Vitis HLS - Matrix Multiplication](./LAB5) <div align="right">2026-04-08</div>
-
-</br>
-
----
-
-### [LAB 6: Neural Network Training + Inferencing on Pynq-Z2](./LAB6)  <div align="right">2026-04-29</div>
+### [LAB 5: Vitis HLS - General Matrix Multiplication](./LAB5) <div align="right">2026-04-08</div>
 
 </br>
 
 ---
 
-### LAB 7: Presentation + Optimization Methods  <div align="right">2026-05-06</div>
+### [LAB 6: Vitis HLS - 2D Convolution](./LAB5) <div align="right">2026-04-15</div>
+
+</br>
+
+---
+
+### [LAB 7: Neural Network Training + Inferencing on Pynq-Z2](./LAB7)  <div align="right">2026-04-29</div>
+
+</br>
+
+---
+
+### LAB 8: Presentation + Optimization Methods  <div align="right">2026-05-06</div>
 
 </br>
 
