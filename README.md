@@ -119,23 +119,31 @@ Please refer to the [How to Install](#how-to-install) section for the detailed i
 
 ### [LAB 5: Vitis HLS - General Matrix Multiplication](./LAB5) <div align="right">2026-04-08</div>
 
+<table>
+<tr>
+	<td>HLS Directives</td>
+	<td><code>ARRAY_PARTITION</code>
+	<code>STABLE</code>
+	<code>LOOP_FLATTEN</code>
+	<code>LOOP_MERGE</code></td>
+</tr>
+<tr>
+	<td>HLS Classes</td>
+	<td><code>ap_fixed<></code></td>
+</tr>
+</table>
+
 </br>
 
 ---
 
-### [LAB 6: Vitis HLS - 2D Convolution](./LAB5) <div align="right">2026-04-15</div>
+### [LAB 6: Neural Network Training + Inferencing on Pynq-Z2](./LAB6)  <div align="right">TBD</div>
 
 </br>
 
 ---
 
-### [LAB 7: Neural Network Training + Inferencing on Pynq-Z2](./LAB7)  <div align="right">2026-04-29</div>
-
-</br>
-
----
-
-### LAB 8: Presentation + Optimization Methods  <div align="right">2026-05-06</div>
+### LAB 7: Presentation + Optimization Methods  <div align="right">TBD</div>
 
 </br>
 
