@@ -137,19 +137,51 @@ Please refer to the [How to Install](#how-to-install) section for the detailed i
 
 ---
 
-### [LAB 6: Neural Network Training + Inferencing on Pynq-Z2](./LAB6)  <div align="right">TBD</div>
+### [LAB 6: Embedding & Optimizing Quantized Neural Network on Pynq-Z2](./LAB6)  <div align="right">2026-04-28</div>
 
-</br>
-
----
-
-### LAB 7: Presentation + Optimization Methods  <div align="right">TBD</div>
+<table>
+<tr>
+	<td>Dataset</td>
+	<td><code>MNIST</code>, <code>70000 images</code></td>
+</tr>
+<tr>
+	<td>Workframe</td>
+	<td><code>Pytorch</code></td>
+</tr>
+<tr>
+	<td>Workflow</td>
+	<td>
+	&emsp;Quantization-Aware Training (QAT)</br>
+	    → Inference Evaluation</br>
+	    → Inference Hardware Optimization</br>
+	</td>
+</tr>
+<tr>
+	<td>Model Arch.</td>
+	<td>Single-Layer Perceptron (SLP)</td>
+</tr>
+</table>
 
 </br>
 
 ---
 
 ### FINAL PROJECT  <div align="right">TBD</div>
+
+<table>
+<tr>
+	<td>Dataset</td>
+	<td><code>MNIST</code>, <code>70000 images</code></td>
+</tr>
+<tr>
+	<td>Workframe</td>
+	<td><code>PyTorch</code></td>
+</tr>
+<tr>
+	<td>Model Arch.</td>
+	<td>Convolution Neural Network (CNN)</td>
+</tr>
+</table>
 
 </br>
 

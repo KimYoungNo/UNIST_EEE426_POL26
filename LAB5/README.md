@@ -2,11 +2,11 @@
 
 ### Objectives
 
-&emsp;General Matrix Multiplication, commonly known as `GEMM`, is a fundamental operation in linear-algebra-related computation. This lab focuses on optimizing a `GEMM` kernel for either (1) **reduced resource usage**, or (2) **increased throughput**.
+&emsp;General Matrix Multiplication, commonly known as `GEMM`, is a fundamental operation in linear-algebra-related computation. This lab focuses on optimizing a `GEMM` kernel for either **(1) reduced resource usage**, or **(2) increased throughput**.
 
-+ Implement a hardware `GEMM` kernel.
++ Implement a hardware `gemm` kernel.
 + Learn to apply different optimization strategies.
-+ Compare the performance and resource usage between the unoptimized and optimized `GEMM` kernels.
++ Compare the performance and resource usage between the unoptimized and optimized `gemm` kernels.
 
 </br>
 
@@ -69,13 +69,13 @@ void gemm(hls::stream<ap_axiu<32,4,5,5>> C,
 
 &emsp;Optimize the `gemm` kernel based on the unoptimized version. Modifying the top-level function signature is not permitted.
 
-#### Part 3. Benchmark & Analysis the difference version of GEMM
+#### Part 3. Benchmark & Analysis the different version of GEMM
 
 1. Resource analysis of the designs:
     - **estimated** resource usage vs. **actual** resource usage
     - Check the Vitis HLS C-Synthesis report for estimated resource usage.
     - Check the Vivado implmentation report for actual resource usage.
-    - What optimizations were applied to reduce resource usage? Is there any difference betwen the estimated and actual resource usage?
+    - What optimizations were applied to reduce resource usage? Is there any difference between the estimated and actual resource usage?
 
 1. Performance analysis of the designs:
     - **estimated** total latency vs. **actual** total latency

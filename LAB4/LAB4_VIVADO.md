@@ -6,7 +6,7 @@
 
 ![TOP_DIAGRAM](./images/4-h1.png)
 
-&emsp;Composited with:  
+&emsp;Composed of:  
 1. Two `AXI Interconnect`  
 1. Three `Direct Memory Access`  
 1. One `ZYNQ7 Processing System`  
